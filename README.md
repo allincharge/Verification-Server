@@ -3,7 +3,10 @@ This repository contains the server component of the Vehicle Data Management Sys
 
 ## API Endpoints
 
-#### POST /add-data
+#### Add Data
+```http
+  POST /add-data
+```
 #### Description
 Adds a new vehicle to the database.
 - **Method**: POST
@@ -25,7 +28,10 @@ Adds a new vehicle to the database.
     "status": "true"
   }
 
-#### POST /verify-vin
+#### Verify Data
+```http
+  POST /verify-vin
+```
 #### Description
 Verifies if a VIN is present in the database.
 - **Method**: POST
